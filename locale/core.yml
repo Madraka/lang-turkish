@@ -333,7 +333,7 @@ core:
       now_link: Şimdi
       original_post_link: Orijinal Gönderi
       unread_text: "{count} Okunmadı"
-      viewing_text: "{index} of {count} post|{index} of {count} posts"
+      viewing_text: "{index} de {count} Gönderi|{index} de {count} Gönderi"
 
     # These translations are displayed between posts in the post stream.
     post_stream:
