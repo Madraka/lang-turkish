@@ -1,5 +1,5 @@
 {
-    "name": "flarum/lang-turkish",
+    "name": "madraka/lang-turkish",
     "type": "flarum-extension",
     "description": "Turkish language pack.",
     "keywords": ["locale"],
