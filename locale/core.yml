@@ -305,7 +305,7 @@ core:
       sign_up_text: "Hesabın yok mu? <a> Hemen Kaydol </a>"
       submit_button: => core.ref.log_in
       title: => core.ref.log_in
-      username_or_email_placeholder: Kullanıcı adı ya da email
+      username_or_email_placeholder: Kullanıcı adı ya da e-posta
 
     # These translations are used by the Notifications dropdown, a.k.a. "the bell".
     notifications:
@@ -341,7 +341,7 @@ core:
       discussion_renamed_text: "{username} changed the title to {new}."
       load_more_button: => core.ref.load_more
       reply_placeholder: => core.ref.write_a_reply
-      time_lapsed_text: "{period} later"
+      time_lapsed_text: "{period} sonra"
 
     # These translations are used by the rename discussion modal.
     rename_discussion:
