@@ -15,8 +15,8 @@ flarum-subscriptions:
     # These translations are used by the discussion control buttons.
     discussion_controls:
       follow_button: => flarum-subscriptions.ref.follow
-      unfollow_button: Unfollow
-      unignore_button: Unignore
+      unfollow_button: Takipten Çık
+      unignore_button: Yoksay
 
     # These translations are used on the index page, peripheral to the discussion list.
     index:
@@ -24,24 +24,24 @@ flarum-subscriptions:
 
     # These translations are used by the Notifications dropdown, a.k.a. "the bell".
     notifications:
-      new_post_text: "{username} posted"
+      new_post_text: "{username} gönderisi"
 
     # These translations are used in the Settings page.
     settings:
-      follow_after_reply_label: Automatically follow discussions that I reply to
-      notify_new_post_label: Someone posts in a discussion I'm following
+      follow_after_reply_label: Yanıtladığım tartışmaları otomatik olarak takip et
+      notify_new_post_label: Birisi, takip ettiğim bir tartışmayı cevaplarsa
 
     # These translations are used in the subscription menu displayed to the right of the post stream.
     sub_controls:
       follow_button: => flarum-subscriptions.ref.follow
       following_button: => flarum-subscriptions.ref.following
-      following_text: Be notified of all replies.
+      following_text: Tüm cevaplardan haberdar olun.
       ignoring_button: => flarum-subscriptions.ref.ignoring
-      ignoring_text: Never be notified. Hide from the discussion list.
-      not_following_button: Not Following
-      not_following_text: "Be notified only when @mentioned."
-      notify_alert_tooltip: Get a forum notification when there are new posts
-      notify_email_tooltip: Get an email when there are new posts
+      ignoring_text: Asla haberdar edilmemeliyim. Tartışma listesinden gizle.
+      not_following_button: Takibi Bırak
+      not_following_text: "Sadece benden Bahsedilince @mentioned."
+      notify_alert_tooltip: Yeni gönderiler olduğunda bir forum bildirimi alın
+      notify_email_tooltip: Yeni gönderiler olduğunda bir e-posta alın
 
   ##
   # REUSED TRANSLATIONS - These keys should not be used directly in code!
