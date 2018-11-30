@@ -12,7 +12,7 @@ core:
       developer_text: "Bir geliştiriciyseniz, <a> dokümanlarını okuyabilirsiniz </a> ve kendi uzantılarınızı oluşturmaya devam edebilirsiniz."
       install_text: "Bu arada, <a> Flarum Topluluk sitesinde </a> uzantıları arayabilir ve bunları Composer'ı kullanarak manuel olarak yükleyebilirsiniz."
       temporary_text: "Çok uzak olmayan bir gelecekte bir gün bu diyalog, forumunuza kolaylıkla bir eklenti eklemenize izin verecektir. Konuştuğumuz gibi bir ekosistem inşa ediyoruz!"
-      title: Uzantı ekle
+      title: Eklenti ekle
 
     # These translations are used in the Appearance page.
     appearance:
@@ -105,7 +105,7 @@ core:
 
     # These translations are used in the Extensions page.
     extensions:
-      add_button: Uzantı ekle
+      add_button: Eklenti ekle
       settings_button: => core.ref.settings
       uninstall_button: Kaldır
 
