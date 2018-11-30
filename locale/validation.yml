@@ -100,5 +100,5 @@ validation:
     content: yazı
     name_singular: singular name
     name_plural: plural name
-    tag_count_primary: number of primary tags
-    tag_count_secondary: number of secondary tags
+    tag_count_primary: birincil etiket sayısı
+    tag_count_secondary: ikincil etiketlerin sayısı
