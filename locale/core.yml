@@ -439,9 +439,9 @@ core:
 
     # Translations in this namespace are displayed by the basic HTML content loader.
     content:
-      javascript_disabled_message: This site is best viewed in a modern browser with JavaScript enabled.
-      load_error_message: Something went wrong while trying to load the full version of this site. Try hard-refreshing this page to fix the error.
-      loading_text: Loading...
+      javascript_disabled_message: Bu site en iyi şekilde JavaScript'in etkin olduğu modern bir tarayıcıda görüntülenmektedir.
+      load_error_message: Bu sitenin tam sürümünü yüklemeye çalışırken bir şeyler ters gitti. Hatayı düzeltmek için bu sayfayı zorla yenilemeyi deneyin.
+      loading_text: Yükleniyor...
 
     # Translations in this namespace are displayed in the basic HTML discussion view.
     discussion:
@@ -450,11 +450,11 @@ core:
 
     # Translations in this namespace are displayed when Flarum encounters an error.
     error:
-      403_message: You do not have permission to access this page.
-      404_message: The page you requested could not be found.
-      404_return_link: "Return to {forum}"
-      500_message: An error occurred while trying to load this page.
-      503_message: "{forum} is undergoing maintenance. Thanks for your patience!"
+      403_message: Bu sayfaya erişim izniniz yok.
+      404_message: İstediğiniz sayfa bulunamadı.
+      404_return_link: "{forum} adresine dönün"
+      500_message: Bu sayfayı yüklemeye çalışırken bir hata oluştu.
+      503_message: "{forum} bakım aşamasında. Sabrınız için teşekkürler!"
 
     # Translations in this namespace are displayed by the basic HTML discussion index.
     index:
@@ -465,48 +465,48 @@ core:
     # Translations in this namespace are displayed by the Log Out confirmation interface.
     log_out:
       log_out_button: => core.ref.log_out
-      log_out_confirmation: "Are you sure you want to log out of {forum}?"
+      log_out_confirmation: "{Forum} oturumundan çıkmak istediğinizden emin misiniz?"
       title: => core.ref.log_out
 
     # Translations in this namespace are displayed by the Reset Password interface.
     reset_password:
-      confirm_password_label: Confirm New Password
-      new_password_label: New Password
+      confirm_password_label: Yeni şifreyi onayla
+      new_password_label: Yeni Şifre
       submit_button: => core.ref.save_changes
       title: => core.ref.reset_your_password
 
   # Translations in this namespace are used in messages output by the API.
   api:
-    invalid_username_message: "The username may only contain letters, numbers, and dashes."
+    invalid_username_message: "Kullanıcı adı sadece harf, sayı ve tire içerebilir."
 
   # Translations in this namespace are used in emails sent by the forum.
   email:
 
     # These translations are used in emails sent when users register new accounts.
     activate_account:
-      subject: Activate Your New Account
+      subject: Yeni Hesabınızı Etkinleştirin
       body: |
         Hey {username}!
 
-        Someone (hopefully you!) has signed up to {forum} with this email address.
+        Birisi (umarım sensin!) Bu e-posta adresiyle {forum} 'a kaydoldu.
 
-        If this was you, simply click the following link and your account will be activated:
+        Bu sensen, aşağıdaki bağlantıyı tıklamanız yeterlidir ve hesabınız etkinleştirilir:
         {url}
 
-        If you did not sign up, please ignore this email.
+        Siz Kayıt olmadıysanız, lütfen bu e-postayı yoksayın.
 
     # These translations are used in emails sent when users change their email address.
     confirm_email:
-      subject: Confirm Your New Email Address
+      subject: Yeni E-posta Adresinizi Onaylayın
       body: |
         Hey {username}!
 
-        Someone (hopefully you!) has changed their email address on {forum} to this one.
+        Birisi (umarız sensin!) E-posta adresini {forum} adresinde değiştirdi.
 
-        If this was you, simply click the following link and your email will be confirmed:
+        Bu sensen, aşağıdaki bağlantıyı tıklamanız yeterlidir ve e-postanız onaylanır:
         {url}
 
-        If this was not you, please ignore this email.
+        Bu siz değilseniz, lütfen bu e-postayı yoksayın.
 
     # These translations are used in emails sent when users ask to reset their passwords.
     reset_password:
@@ -514,12 +514,12 @@ core:
       body: |
         Hey {username}!
 
-        Someone (hopefully you!) has submitted a forgotten password request for your account on {forum}.
+        Birisi (umarım sensin!) Hesabınız için unutulmuş bir şifre isteği göndermiştir {forum}.
 
-        If this was you, click the following link to reset your password:
+        Bu sensen, şifrenizi sıfırlamak için aşağıdaki bağlantıyı tıklayın:
         {url}
 
-        If you do not wish to change your password, just ignore this email and nothing will happen.
+        Eğer şifrenizi değiştirmek istemiyorsanız, sadece bu e-postayı yoksayın ve hiçbir şey olmayacak.
 
   ##
   # REUSED TRANSLATIONS - These keys should not be used directly in code!
@@ -527,45 +527,45 @@ core:
 
   # Translations in this namespace are referenced by two or more unique keys.
   ref:
-    all_discussions: All Discussions
-    change_email: Change Email
-    change_password: Change Password
-    color: Color                                 # Referenced by flarum-tags.yml
-    confirm_password: Confirm Password
-    confirmation_email_sent: "We've sent a confirmation email to {email}. If it doesn't arrive soon, check your spam folder."
-    custom_footer_text: Add HTML to be displayed at the very bottom of the page.
-    custom_footer_title: Edit Custom Footer
-    custom_header_text: "Add HTML to be displayed at the very top of the page, above Flarum's own header."
-    custom_header_title: Edit Custom Header
-    delete: Delete
-    delete_forever: Delete Forever
-    discussions: Discussions                     # Referenced by flarum-statistics.yml
-    edit: Edit
-    email: Email
-    load_more: Load More
-    log_in: Log In
-    log_out: Log Out
-    mark_all_as_read: Mark All as Read
-    next_page: Next Page
-    notifications: Notifications
+    all_discussions: Tüm Konular
+    change_email: E-Posta Değiştir
+    change_password: Şifreni Değiş
+    color: Renk                                 # Referenced by flarum-tags.yml
+    confirm_password: Şifreyi Onayla
+    confirmation_email_sent: "{Email} adresine bir onay e-postası gönderdik. Yakında gelmezse spam klasörünüzü kontrol edin."
+    custom_footer_text: Sayfanın en altında görüntülenecek HTML'yi ekleyin.
+    custom_footer_title: Altbilgiyi Düzenle
+    custom_header_text: "Sayfanın en üstünde, Flarum'un kendi başlığının üstünde görüntülenecek HTML'yi ekleyin."
+    custom_header_title: Üstbilgiyi Düzenle
+    delete: Sil
+    delete_forever: Kalıcı Sil
+    discussions: Tartışmalar                     # Referenced by flarum-statistics.yml
+    edit: Düzenle
+    email: E-Posta
+    load_more: Daha Fazla
+    log_in: Giriş
+    log_out: Çıkış
+    mark_all_as_read: Okundu olarak işaretle
+    next_page: Sonraki Sayfa
+    notifications: Bildirimler
     okay: OK                                     # Referenced by flarum-tags.yml
-    password: Password
-    posts: Posts                                 # Referenced by flarum-statistics.yml
-    previous_page: Previous Page
-    remove: Remove
-    rename: Rename
-    reply: Reply                                 # Referenced by flarum-mentions.yml
-    reset_your_password: Reset Your Password
+    password: Şifre
+    posts: Gönderiler                                 # Referenced by flarum-statistics.yml
+    previous_page: Önceki sayfa
+    remove: Kaldır
+    rename: Değiştir
+    reply: Cevapla                                 # Referenced by flarum-mentions.yml
+    reset_your_password: Şifreni Sıfırla
     restore: Restore
-    save_changes: Save Changes                   # Referenced by flarum-suspend.yml, flarum-tags.yml
-    settings: Settings
-    sign_up: Sign Up
-    some_others: "{count} other|{count} others"  # Referenced by flarum-likes.yml, flarum-mentions.yml
-    start_a_discussion: Start a Discussion
-    username: Username
-    users: Users                                 # Referenced by flarum-statistics.yml
-    write_a_reply: Write a Reply...
-    you: You                                     # Referenced by flarum-likes.yml, flarum-mentions.yml
+    save_changes: Değişiklikleri Kaydet                   # Referenced by flarum-suspend.yml, flarum-tags.yml
+    settings: Ayarlar
+    sign_up: Kaydol
+    some_others: "{count} sonra|{count} sonraki"  # Referenced by flarum-likes.yml, flarum-mentions.yml
+    start_a_discussion: Bir Konu Başlat
+    username: Kullanıcı Adı
+    users: Üyeler                                 # Referenced by flarum-statistics.yml
+    write_a_reply: Bir yanıt Yaz...
+    you: Sen                                     # Referenced by flarum-likes.yml, flarum-mentions.yml
 
   ##
   # GROUP NAMES - These keys are translated at the back end.
