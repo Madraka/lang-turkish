@@ -9,11 +9,11 @@ flarum-markdown:
 
     # These translations are used by the composer (emoji autocompletion function).
     composer:
-      bold_tooltip: Kalın metin ekle
+      bold_tooltip: Kalın metin
       code_tooltip: Kod Ekle
-      header_tooltip: Başlık metni ekle
-      italic_tooltip: İtalik metin ekle
+      header_tooltip: Başlık metni
+      italic_tooltip: İtalik metin
       link_tooltip: link Ekle
-      ordered_list_tooltip: Numaralı bir liste ekle
-      quote_tooltip: Alıntı Ekle
-      unordered_list_tooltip: Madde işaretli liste ekle
+      ordered_list_tooltip: Numaralı liste 
+      quote_tooltip: Alıntı
+      unordered_list_tooltip: Madde işaretli liste
