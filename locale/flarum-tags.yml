@@ -101,4 +101,4 @@ flarum-tags:
   ref:
     create_tag: Etiket oluştur
     name: isim
-    tags: etiketler
+    tags: Konular
