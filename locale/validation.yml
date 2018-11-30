@@ -93,11 +93,11 @@ validation:
   uuid: "The :attribute must be a valid UUID."
 
   attributes:
-    username: username
-    password: password
-    email: email
-    title: title
-    content: content
+    username: Kullanıcı
+    password: şifre
+    email: E-posta
+    title: başlık
+    content: yazı
     name_singular: singular name
     name_plural: plural name
     tag_count_primary: number of primary tags
