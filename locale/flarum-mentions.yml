@@ -30,7 +30,7 @@ flarum-mentions:
     # These translations are used in the Settings page.
     settings:
       notify_post_mentioned_label: Birisi gönderilerimden birine yanıt verirse
-      notify_user_mentioned_label: Birisi bir yazı benden bahsederse
+      notify_user_mentioned_label: Birisi bir yazıda benden bahsederse
 
     # These translations are used in the user profile page and profile popup.
     user:
