@@ -74,7 +74,7 @@ core:
       delete_button: Grubu Sil
       delete_confirmation: "Bu grubu silmek istediğinizden emin misiniz? Grup üyeleri silinmeyecek."
       icon_label: Ikon
-      icon_text: "<Code Font Awesome </a> simge sınıfının adını girin, <em> dahil </ em> <code> fas fa - </ code> öneki."
+      icon_text: "Enter the name of any <a>FontAwesome</a> icon class, <em>including</em> the <code>fas fa-</code> prefix."
       name_label: İsim
       plural_placeholder: Çoğul (ör. Modlar)
       singular_placeholder: Tekil (ör. Mod)
@@ -159,7 +159,7 @@ core:
     # These translations are used in the dropdown menus on the Permissions page.
     permissions_controls:
       allow_indefinitely_button: Süresiz
-      allow_some_minutes_button: "{Count} dakika içinde | {count} dakika içinde"
+      allow_some_minutes_button: "{count} dakika içinde | {count} dakika içinde"
       allow_ten_minutes_button: 10 dakika
       allow_until_reply_button: Bir sonraki cevaba kadar
       everyone_button: Herkes
@@ -174,7 +174,7 @@ core:
     # These translations are used in image upload buttons.
     upload_image:
       remove_button: => core.ref.remove
-      upload_button: Bir Resim Seç ...
+      upload_button: Resim Seç ...
 
   # Translations in this namespace are used by the forum user interface.
   forum:
@@ -249,12 +249,12 @@ core:
       activate_button: Kullanıcıyı Etkinleştir
       email_heading: => core.ref.email
       email_label: => core.ref.email
-      groups_heading: Groups
+      groups_heading: Gruplar
       password_heading: => core.ref.password
       password_label: => core.ref.password
       set_password_label: Set new password
       submit_button: => core.ref.save_changes
-      title: Edit User
+      title: Üye Düzenle
       username_heading: => core.ref.username
       username_label: => core.ref.username
 
@@ -270,7 +270,7 @@ core:
 
     # These translations are used in the header and session dropdown menu.
     header:
-      admin_button: Administratör
+      admin_button: Yönetim
       back_to_index_tooltip: Tartışma Listesine Geri Dön
       log_in_link: => core.ref.log_in
       log_out_button: => core.ref.log_out
@@ -538,7 +538,7 @@ core:
     custom_header_text: "Sayfanın en üstünde, Flarum'un kendi başlığının üstünde görüntülenecek HTML'yi ekleyin."
     custom_header_title: Üstbilgiyi Düzenle
     delete: Sil
-    delete_forever: Kalıcı Sil
+    delete_forever: Kalıcı olarak Sil
     discussions: Tartışmalar                     # Referenced by flarum-statistics.yml
     edit: Düzenle
     email: E-Posta
@@ -555,7 +555,7 @@ core:
     remove: Kaldır
     rename: Değiştir
     reply: Cevapla                                 # Referenced by flarum-mentions.yml
-    reset_your_password: Şifreni Sıfırla
+    reset_your_password: Şifremi Sıfırla
     restore: Restore
     save_changes: Değişiklikleri Kaydet                   # Referenced by flarum-suspend.yml, flarum-tags.yml
     settings: Ayarlar
