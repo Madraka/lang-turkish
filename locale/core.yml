@@ -252,7 +252,7 @@ core:
       groups_heading: Gruplar
       password_heading: => core.ref.password
       password_label: => core.ref.password
-      set_password_label: Set new password
+      set_password_label: Yeni şifre belirle
       submit_button: => core.ref.save_changes
       title: Üye Düzenle
       username_heading: => core.ref.username
@@ -362,7 +362,7 @@ core:
       notifications_heading: => core.ref.notifications
       notify_by_email_heading: => core.ref.email
       notify_by_web_heading: Web
-      notify_discussion_renamed_label: Birisi başladığım bir tartışmayı yeniden adlandırdı.
+      notify_discussion_renamed_label: Birisi başladığın bir tartışmayı yeniden adlandırdı.
       privacy_disclose_online_label: Çevrimiçi olduğumda başkalarının görmesine izin ver
       privacy_heading: Gizlilik
       title: => core.ref.settings
@@ -564,7 +564,7 @@ core:
     start_a_discussion: Bir Konu Başlat
     username: Kullanıcı Adı
     users: Üyeler                                 # Referenced by flarum-statistics.yml
-    write_a_reply: Bir yanıt Yaz...
+    write_a_reply: Bir yanıt yaz...
     you: Sen                                     # Referenced by flarum-likes.yml, flarum-mentions.yml
 
   ##
@@ -574,7 +574,7 @@ core:
   # Translations in this namespace are used to translate default group names.
   group:
     admin: Admin
-    admins: Admins
+    admins: Adminler
     guest: Ziyaretçi
     guests: Ziyaretçiler
     member: Üye
