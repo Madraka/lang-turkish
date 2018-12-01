@@ -330,15 +330,15 @@ core:
 
     # These translations are used in the scrubber to the right of the post stream.
     post_scrubber:
-      now_link: Şimdi
+      now_link: Son Gönderi
       original_post_link: Orijinal Gönderi
       unread_text: "{count} Okunmadı"
       viewing_text: "{index} < {count} Gönderi|{index} < {count} Gönderi"
 
     # These translations are displayed between posts in the post stream.
     post_stream:
-      discussion_renamed_old_tooltip: 'The old title was: "{old}"'
-      discussion_renamed_text: "{username} changed the title to {new}."
+      discussion_renamed_old_tooltip: 'Konunun eski adı buydu: "{old}"'
+      discussion_renamed_text: "{username} Bu başlığı değiştirdi, yeni adı: {new}."
       load_more_button: => core.ref.load_more
       reply_placeholder: => core.ref.write_a_reply
       time_lapsed_text: "{period} sonra"
