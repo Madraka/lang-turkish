@@ -39,6 +39,6 @@ moment.locale('pt-br', {
 		y : 'bir yıl',
 		yy : '%d yıl'
 	},
-	ordinalParse: /\d{1,2}inci/,
-	ordinal : '%dinci'
+	ordinalParse: /\d{1,2}./,
+	ordinal : '%d.'
 });
