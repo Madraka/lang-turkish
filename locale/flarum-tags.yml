@@ -82,9 +82,9 @@ flarum-tags:
 
     # These translations are displayed between posts in the post stream.
     post_stream:
-      added_and_removed_tags_text: "{username}, {tags Added} etiketini ekledi ve {tags Removed} etiketini kaldırdı."
-      added_tags_text: "{username}, {tags Added} konusunu ekledi."
-      removed_tags_text: "{username}, {tag Removed} etiketini kaldırdı."
+      added_and_removed_tags_text: "{username}, {tagsAdded} etiketini ekledi ve {tagsRemoved} etiketini kaldırdı."
+      added_tags_text: "{username}, {tagsAdded} konusunu ekledi."
+      removed_tags_text: "{username}, {tagsRemoved} etiketini kaldırdı."
       tags_text: "{tags} etiket | {tags} etiketler"
 
   # Translations in this namespace are used by the forum and admin interfaces.
