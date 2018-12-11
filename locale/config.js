@@ -2,7 +2,7 @@ moment.locale('pt-br', {
 	months : 'Ocak_Şubat_Mart_Nisan_Nayıs_Haziran_Temmuz_Ağustos_Eylül_Ekim_Kasım_Aralık'.split('_'),
 	monthsShort : 'Oc_Şbt_Mar_Nis_May_Haz_Tem_Ağu_Eyl_Ekm_Kas_Ara'.split('_'),
 	weekdays : 'Pazar_Pazartesi_Salı_Çarşamba_Perşembe_Cuma_Cumartesi'.split('_'),
-	weekdaysShort : 'Paz_Pzt_Sa_Ça_Pe_Cu_Cmt'.split('_'),
+	weekdaysShort : 'Paz_Pts_Sa_Ça_Pe_Cu_Cts'.split('_'),
 	weekdaysMin : 'Paz_2._3._4._5._6._Cts'.split('_'),
 	longDateFormat : {
 		LT : 'HH:mm',
