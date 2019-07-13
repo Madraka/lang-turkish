@@ -1,0 +1,21 @@
+flarum-best-answer:
+    admin:
+        permissions:
+            best_answer: En İyi Yanıtı Seç (kendi Tartışmasında)
+            best_answer_not_own_discussion: En İyi Yanıtı Seçin (Kendi Tartışması olmayan)
+        settings:
+            title: "En iyi Cevap Eklentisi Ayarları"
+            allow_select_own_post: "Kullanıcının kendi gönderisini seçmesine izin ver"
+            select_best_answer_reminder_days: Kullanıcıya X günden sonra en iyi cevabı seçmesini hatırlat
+    forum:
+        this_best_answer: "Bunu en iyi cevap olarak seç"
+        remove_best_answer: "En iyi cevap seçimini kaldır"
+        header_best_answer: "Konu yazarı tarafından en iyi cevap olarak işaretlendi"
+        best_answer_button: Harika Cevap! Seçildi
+        best_answer_label: <a>{username} Tarafından</a>
+        best_answer: => flarum-best-answer.ref.best_answer
+
+        notification:
+            content: Sorunuz cevaplandıysa, lütfen en iyi cevabı seçin
+    ref:
+      best_answer: 'En İyi Cevap'

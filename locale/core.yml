@@ -73,8 +73,8 @@ core:
       color_label: => core.ref.color
       delete_button: Grubu Sil
       delete_confirmation: "Bu grubu silmek istediğinizden emin misiniz? Grup üyeleri silinmeyecek."
-      icon_label: Ikon
-      icon_text: "Enter the name of any <a>FontAwesome</a> icon class, <em>including</em> the <code>fas fa-</code> prefix."
+      icon_label: => core.ref.icon
+      icon_text: => core.ref.icon_text
       name_label: İsim
       plural_placeholder: Çoğul (ör. Modlar)
       singular_placeholder: Tekil (ör. Mod)
@@ -542,6 +542,8 @@ core:
     discussions: Tartışmalar                     # Referenced by flarum-statistics.yml
     edit: Düzenle
     email: E-Posta
+    icon_label: Ikon
+    icon_text: "Enter the name of any <a>FontAwesome</a> icon class, <em>including</em> the <code>fas fa-</code> prefix."
     load_more: Daha Fazla
     log_in: Giriş
     log_out: Çıkış
